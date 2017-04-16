@@ -47,6 +47,19 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hwui.text_large_cache_width=4096 \
     ro.hwui.text_large_cache_height=2048
 
+
+# Display Properties
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.bq.gpu_to_cpu_unsupported=1 \
+    ro.opengles.version=196610 \
+    ro.sf.lcd_density=320
+
+# Hwc - not used on cm/aosp
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.hwc.winupdate=1 \
+    debug.hwc.otf=1
+
+
 # Network
 # Define default initial receive window size in segments.
 PRODUCT_PROPERTY_OVERRIDES += \
