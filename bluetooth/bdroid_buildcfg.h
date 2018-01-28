@@ -19,7 +19,10 @@
 
 #define BTM_DEF_LOCAL_NAME "Galaxy Tab S2"
 
-#define BTM_WBS_INCLUDED TRUE       /* Enable WBS */
-#define BTIF_HF_WBS_PREFERRED TRUE  /* Use WBS    */  
+/* Enable WBS */
+#define BTM_WBS_INCLUDED TRUE
+
+/* Use WBS    */
+#define BTIF_HF_WBS_PREFERRED TRUE
 
 #endif
